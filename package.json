@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -50,7 +51,13 @@
     "lint-staged": "^12.3.8",
     "prettier": "2.6.2"
   },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+  "husk": {
+    "hooks": {
+      "pre-commit" : "lint-staged"
+    }
+  },
+  "lint-staged" : {
+    "*.js" : "prettier --write",
+    "*.jsx" : "prettier --write"
   }
 }

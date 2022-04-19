@@ -39,7 +39,7 @@ function Header() {
         <MenuButton className={active ? "menutoggle active" : "menutoggle"} />
       </Button>
       {active ? (
-        <MenuMobile className="openmenu" setActive={setActive} />
+        <MenuMobile className="openmenu" setActive={setActive} /> 
       ) : null}
     </HeaderStyle>
   );
