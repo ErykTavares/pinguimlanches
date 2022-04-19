@@ -5,7 +5,9 @@
 **<a href='' target='_blank'></a>**
 ### **Exemplo do Projeto**
 <img src='https://media.giphy.com/media/0SPYOBdvPIVbbbY0mL/giphy.gif' alt='gif de exemplo do projeto'>
+
 ### **Ferramentas Usadas**
+
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
 <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" alt="styled components">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Html">
@@ -20,5 +22,7 @@
 <a href='https://discord.com/users/859431514449379358' target='_blank'><img src='https://img.shields.io/badge/-@ErykTavares%239649-4169E1?style=flat&labelColor=7289da&logo=discord&logoColor=white'></a>
 <a href='https://www.youtube.com/channel/UCvLrUAMzmxB-H0iK8H7ReQg' target='_blank'><img src='https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white'></a>
 </div>
-<hr>
-######**Copyright ErykTavares © 2022**
+
+---
+
+###### **Copyright ErykTavares © 2022**
