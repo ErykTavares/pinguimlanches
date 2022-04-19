@@ -1,8 +1,13 @@
 # **Pinguim Lanches**
+
 ### **Descrição:**
+
 - **Teste de uma vaga de Desenvolvedor Front-End Web React.**
+
 ### **Site do Projeto**
+
 **<a href='' target='_blank'></a>**
+
 ### **Exemplo do Projeto**
 <img src='https://media.giphy.com/media/0SPYOBdvPIVbbbY0mL/giphy.gif' alt='gif de exemplo do projeto'>
 
