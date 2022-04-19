@@ -4,7 +4,7 @@ import {
   HomeSectionStyle,
   HomeSectionTwoStyle,
   HomeSectionTreeStyle,
-  HSTreeGridStyle,
+  HomeSectionTreeGridStyle,
   HomeSectionFourStyle,
 } from "./style";
 import Button from "../../components/Button";
@@ -24,23 +24,23 @@ const Home = () => {
         </div>
         <div className="homerightccontent">
           <img
-            src={process.env.PUBLIC_URL + "./assets/img/pinguin.png"}
+            src={process.env.PUBLIC_URL + "./assets/img/pinguin.webp"}
             alt=""
           />
         </div>
       </HomeSectionStyle>
 
       <HomeSectionTwoStyle>
-        <div className="hstwoleftcontent">
+        <div className="homesectiontwoleftcontent">
           <img
-            src={process.env.PUBLIC_URL + "./assets/img/image 1.png"}
+            src={process.env.PUBLIC_URL + "./assets/img/image_1.webp"}
             alt="hamburger"
           />
         </div>
-        <div className="hstworightcontent">
-          <div className="hstworighttexts">
-            <h2 className="hstworighttextsfirst">Qualidade</h2>
-            <h2 className="hstworighttextssecond">
+        <div className="homesectiontworightcontent">
+          <div className="homesectiontworighttexts">
+            <h2 className="homesectiontworighttextsfirst">Qualidade</h2>
+            <h2 className="homesectiontworighttextssecond">
               QUALIDADE E VARIEDADE DE ALIMENTOS IMPECÁVEL.
             </h2>
             <p>
@@ -53,52 +53,79 @@ const Home = () => {
       </HomeSectionTwoStyle>
 
       <HomeSectionTreeStyle>
-        <header className="hstree-header">
-          <h4 className="hstreetext-first">
+        <header className="homesectiontree-header">
+          <h4 className="homesectiontreetext-first">
             Aprecie o nosso maravilhoso cardápio
           </h4>
-          <h2 className="hstreetext-second">Cardápio !</h2>
-          <h4 className="hstreetext-third">Hamburgueria . Confeitaria</h4>
+          <h2 className="homesectiontreetext-second">Cardápio !</h2>
+          <h4 className="homesectiontreetext-third">Hamburgueria . Confeitaria</h4>
         </header>
-        <HSTreeGridStyle>
-          <h2 className="hstree-title">Salgados</h2>
+        <HomeSectionTreeGridStyle>
+          <h2 className="homesectiontree-title">Salgados</h2>
 
-          <div className="hstreegird-imgs">
-            <img src={process.env.PUBLIC_URL + "./assets/img/image 2.png"} alt="Hamburger1" />
-            <img src={process.env.PUBLIC_URL + "./assets/img/image 5.png"} alt="hotdog" />
-            <img src={process.env.PUBLIC_URL + "./assets/img/image 2.png"} alt="Hamburger2" />
-
+          <div className="homesectiontreegird-imgs">
+            <img
+              src={process.env.PUBLIC_URL + "./assets/img/image_2.webp"}
+              alt="Hamburger1"
+            />
+            <img
+              src={process.env.PUBLIC_URL + "./assets/img/image_5.webp"}
+              alt="hotdog"
+            />
+            <img
+              src={process.env.PUBLIC_URL + "./assets/img/image_2.webp"}
+              alt="Hamburger2"
+            />
           </div>
-        </HSTreeGridStyle>
+        </HomeSectionTreeGridStyle>
 
-        <HSTreeGridStyle>
-          <h2 className="hstree-title">Doces</h2>
+        <HomeSectionTreeGridStyle>
+          <h2 className="homesectiontree-title">Doces</h2>
 
-          <div className="hstreegird-imgs">
-            <img src={process.env.PUBLIC_URL + "./assets/img/image 6.png"} alt="torta" />
-            <img src={process.env.PUBLIC_URL + "./assets/img/image 7.png"} alt="puddin" />
-            <img src={process.env.PUBLIC_URL + "./assets/img/image 8.png"} alt="bigadeiro" />
-
+          <div className="homesectiontreegird-imgs">
+            <img
+              src={process.env.PUBLIC_URL + "./assets/img/image_6.webp"}
+              alt="torta"
+            />
+            <img
+              src={process.env.PUBLIC_URL + "./assets/img/image_7.webp"}
+              alt="puddin"
+            />
+            <img
+              src={process.env.PUBLIC_URL + "./assets/img/image_8.webp"}
+              alt="bigadeiro"
+            />
           </div>
-        </HSTreeGridStyle>
+        </HomeSectionTreeGridStyle>
       </HomeSectionTreeStyle>
 
       <HomeSectionFourStyle>
         <div className="title">
-        <h2 className="hsfourtitle">Delivery</h2>
-        <h4 className="hsfoursubtitle">Saiba onde nos encontrar com mais facilidade</h4>
+          <h2 className="homesectionfourtitle">Delivery</h2>
+          <h4 className="homesectionfoursubtitle">
+            Saiba onde nos encontrar com mais facilidade
+          </h4>
         </div>
         <div className="socialapp">
           <div className="apps">
-            <img src={process.env.PUBLIC_URL + "./assets/img/image 10.png"} alt="ifood" />
+            <img
+              src={process.env.PUBLIC_URL + "./assets/img/image_10.webp"}
+              alt="iquefome"
+            />
             <Button>fazer pedido</Button>
           </div>
           <div className="apps">
-            <img src={process.env.PUBLIC_URL + "./assets/img/image 9.png"} alt="ifood" />
+            <img
+              src={process.env.PUBLIC_URL + "./assets/img/image_9.webp"}
+              alt="ifood"
+            />
             <Button>fazer pedido</Button>
           </div>
           <div className="apps">
-            <img src={process.env.PUBLIC_URL + "./assets/img/image 11.png"} alt="ifood" />
+            <img
+              src={process.env.PUBLIC_URL + "./assets/img/image-11.webp"}
+              alt="99food"
+            />
             <Button>fazer pedido</Button>
           </div>
         </div>

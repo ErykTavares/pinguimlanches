@@ -23,9 +23,9 @@ const Footer = () => {
         <div className="content">
           <h3>HORÁRIO DE ATENDIMENTO</h3>
           <p>
-            Unidade - Itapetininga/SP <br/>
-            Segunda à quinta: 18:00 às 00:00 <br/>
-            Sexta e sábado: 18:00 às 02h00 <br/> 
+            Unidade - Itapetininga/SP <br />
+            Segunda à quinta: 18:00 às 00:00 <br />
+            Sexta e sábado: 18:00 às 02h00 <br />
             Domingo: 18:00 às 23h00
           </p>
         </div>

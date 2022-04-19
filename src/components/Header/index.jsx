@@ -2,15 +2,15 @@ import React from "react";
 import { HeaderStyle } from "./style";
 import { ReactComponent as Pinguin } from "../../assets/svg/pinguin navbar.svg";
 import { ReactComponent as MenuButton } from "../../assets/svg/MenuMobile.svg";
-import MenuMobile from "./MenuMobile"
-import Button from "../Button"
+import MenuMobile from "./MenuMobile";
+import Button from "../Button";
 
 const Header = () => {
   const [active, setActive] = React.useState(false);
 
   return (
     <HeaderStyle>
-      <Pinguin className="iconlogo"/>
+      <Pinguin className="iconlogo" />
       <nav>
         <ul className="desktopmenulist">
           <li>
@@ -30,10 +30,17 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <Button bgcolor="transparent" width="30px" height="22px" onClick={()=>setActive(!active)}>
-        <MenuButton  className={active? "menutoggle active" : "menutoggle"}/>
+      <Button
+        bgcolor="transparent"
+        width="30px"
+        height="22px"
+        onClick={() => setActive(!active)}
+      >
+        <MenuButton className={active ? "menutoggle active" : "menutoggle"} />
       </Button>
-      {active? <MenuMobile className="openmenu" setActive={setActive}/> : null}
+      {active ? (
+        <MenuMobile className="openmenu" setActive={setActive} />
+      ) : null}
     </HeaderStyle>
   );
 };

@@ -172,7 +172,7 @@ export const HomeSectionTwoStyle = styled.section`
         flex-direction:column;
     }
 
-    .hstwoleftcontent{
+    .homesectiontwoleftcontent{
         display: flex;
         align-items: center;
         justify-content:center;
@@ -191,7 +191,7 @@ export const HomeSectionTwoStyle = styled.section`
         }
     }
 
-    .hstworightcontent{
+    .homesectiontworightcontent{
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -200,7 +200,9 @@ export const HomeSectionTwoStyle = styled.section`
                 width: 100%;
                 align-items:center;
         }
-        .hstworighttexts{
+
+
+        .homesectiontworighttexts{
             margin-bottom: 50px;
             @media screen and (max-width:523px){
                  width:100% ;
@@ -211,7 +213,7 @@ export const HomeSectionTwoStyle = styled.section`
                  padding: 0 2rem;
             }   
 
-            .hstworighttextsfirst{
+            .homesectiontworighttextsfirst{
                 font-size: 3rem;
                 font-family: "sacramento", cursive;
                 color: var(--textredweak);
@@ -223,7 +225,7 @@ export const HomeSectionTwoStyle = styled.section`
             }
 
             
-            .hstworighttextssecond{
+            .homesectiontworighttextssecond{
                 width: 100%;
                 max-width: 465px;
                 word-break: break-word;
@@ -272,7 +274,7 @@ export const HomeSectionTreeStyle = styled.section`
         height: 1800px;
     }
 
-    .hstree-header{
+    .homesectiontree-header{
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -280,7 +282,7 @@ export const HomeSectionTreeStyle = styled.section`
         justify-content:center;
         margin-bottom: 4rem;
 
-        .hstreetext-first{
+        .homesectiontreetext-first{
             color: var(--textred);
             text-shadow: 0px 0px 6px #D47878C9;
             font-family: "Single Day", cursive;
@@ -292,7 +294,7 @@ export const HomeSectionTreeStyle = styled.section`
             
         }
 
-        .hstreetext-second{
+        .homesectiontreetext-second{
             text-shadow: 0px 0px 10px #FFFFFF82;
             font-size: 4.5rem;
             font-family: "Permanent Marker", cursive;
@@ -307,7 +309,7 @@ export const HomeSectionTreeStyle = styled.section`
     
         }
 
-        .hstreetext-third{
+        .homesectiontreetext-third{
             font-family: "Single Day", cursive;
             font-size: 1.5rem;
         }
@@ -316,7 +318,7 @@ export const HomeSectionTreeStyle = styled.section`
 
    
 `
-export const HSTreeGridStyle = styled.div`
+export const HomeSectionTreeGridStyle = styled.div`
     width: 100%;
     max-width: 1170px;
     display: flex;
@@ -326,7 +328,7 @@ export const HSTreeGridStyle = styled.div`
         padding: 0 4rem;
     }
    
-    .hstree-title{
+    .homesectiontree-title{
         width: 105px;
         height: 40px;
         align-self: start;
@@ -338,7 +340,7 @@ export const HSTreeGridStyle = styled.div`
         }
     } 
     
-    .hstreegird-imgs{
+    .homesectiontreegird-imgs{
         width: 100%;
         height: auto;
         display: grid;
@@ -370,7 +372,7 @@ export const HomeSectionFourStyle = styled.section`
         align-items: center;
         justify-content:space-between;
 
-        .hsfourtitle{
+        .homesectionfourtitle{
             font-family:"Permanent Maker", cursive;
             font-size: 5rem;
             color: var(--textblack);
@@ -381,7 +383,7 @@ export const HomeSectionFourStyle = styled.section`
     
         }
     
-        .hsfoursubtitle{
+        .homesectionfoursubtitle{
             font-family: "Single Day", cursive;
             font-size: 1.5rem;
             color: var(--textred);

@@ -4,7 +4,7 @@ import { ReactComponent as Xsvg } from "../../../assets/svg/x.svg";
 import Button from "../../Button";
 
 const MenuMobile = ({ className, setActive }) => {
-  const [animation, setAnimation] = React.useState(className); 
+  const [animation, setAnimation] = React.useState(className);
 
   return (
     <MenuMobileStyle className={animation}>
