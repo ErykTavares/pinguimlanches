@@ -21,4 +21,4 @@
 <a href='https://www.youtube.com/channel/UCvLrUAMzmxB-H0iK8H7ReQg' target='_blank'><img src='https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white'></a>
 </div>
 <hr>
-###### **Copyright ErykTavares © 2022**
+######**Copyright ErykTavares © 2022**
