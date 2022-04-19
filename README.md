@@ -20,5 +20,5 @@
 <a href='https://discord.com/users/859431514449379358' target='_blank'><img src='https://img.shields.io/badge/-@ErykTavares%239649-4169E1?style=flat&labelColor=7289da&logo=discord&logoColor=white'></a>
 <a href='https://www.youtube.com/channel/UCvLrUAMzmxB-H0iK8H7ReQg' target='_blank'><img src='https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white'></a>
 </div>
----
+<hr>
 ###### **Copyright ErykTavares © 2022**
