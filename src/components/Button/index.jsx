@@ -1,7 +1,9 @@
 import React from "react";
 import { ButtonStyle } from "./style";
 
-const Button = ({ children, type, bgcolor, width, height, onClick }) => {
+function Button({
+  children, type, bgcolor, width, height, onClick, 
+}) {
   return (
     <ButtonStyle
       type={type}
@@ -13,6 +15,6 @@ const Button = ({ children, type, bgcolor, width, height, onClick }) => {
       {children}
     </ButtonStyle>
   );
-};
+}
 
 export default Button;

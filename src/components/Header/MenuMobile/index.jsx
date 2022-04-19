@@ -3,7 +3,7 @@ import { MenuMobileStyle } from "./style";
 import { ReactComponent as Xsvg } from "../../../assets/svg/x.svg";
 import Button from "../../Button";
 
-const MenuMobile = ({ className, setActive }) => {
+function MenuMobile({ className, setActive }) {
   const [animation, setAnimation] = React.useState(className);
 
   return (
@@ -38,6 +38,6 @@ const MenuMobile = ({ className, setActive }) => {
       </ul>
     </MenuMobileStyle>
   );
-};
+}
 
 export default MenuMobile;

@@ -9,7 +9,7 @@ import {
 } from "./style";
 import Button from "../../components/Button";
 
-const Home = () => {
+function Home() {
   return (
     <HomeStyle>
       <HomeSectionStyle>
@@ -24,7 +24,7 @@ const Home = () => {
         </div>
         <div className="homerightccontent">
           <img
-            src={process.env.PUBLIC_URL + "./assets/img/pinguin.webp"}
+            src={`${process.env.PUBLIC_URL}./assets/img/pinguin.webp`}
             alt=""
           />
         </div>
@@ -33,7 +33,7 @@ const Home = () => {
       <HomeSectionTwoStyle>
         <div className="homesectiontwoleftcontent">
           <img
-            src={process.env.PUBLIC_URL + "./assets/img/image_1.webp"}
+            src={`${process.env.PUBLIC_URL}./assets/img/image_1.webp`}
             alt="hamburger"
           />
         </div>
@@ -58,22 +58,24 @@ const Home = () => {
             Aprecie o nosso maravilhoso cardápio
           </h4>
           <h2 className="homesectiontreetext-second">Cardápio !</h2>
-          <h4 className="homesectiontreetext-third">Hamburgueria . Confeitaria</h4>
+          <h4 className="homesectiontreetext-third">
+            Hamburgueria . Confeitaria
+          </h4>
         </header>
         <HomeSectionTreeGridStyle>
           <h2 className="homesectiontree-title">Salgados</h2>
 
           <div className="homesectiontreegird-imgs">
             <img
-              src={process.env.PUBLIC_URL + "./assets/img/image_2.webp"}
+              src={`${process.env.PUBLIC_URL}./assets/img/image_2.webp`}
               alt="Hamburger1"
             />
             <img
-              src={process.env.PUBLIC_URL + "./assets/img/image_5.webp"}
+              src={`${process.env.PUBLIC_URL}./assets/img/image_5.webp`}
               alt="hotdog"
             />
             <img
-              src={process.env.PUBLIC_URL + "./assets/img/image_2.webp"}
+              src={`${process.env.PUBLIC_URL}./assets/img/image_2.webp`}
               alt="Hamburger2"
             />
           </div>
@@ -84,15 +86,15 @@ const Home = () => {
 
           <div className="homesectiontreegird-imgs">
             <img
-              src={process.env.PUBLIC_URL + "./assets/img/image_6.webp"}
+              src={`${process.env.PUBLIC_URL}./assets/img/image_6.webp`}
               alt="torta"
             />
             <img
-              src={process.env.PUBLIC_URL + "./assets/img/image_7.webp"}
+              src={`${process.env.PUBLIC_URL}./assets/img/image_7.webp`}
               alt="puddin"
             />
             <img
-              src={process.env.PUBLIC_URL + "./assets/img/image_8.webp"}
+              src={`${process.env.PUBLIC_URL}./assets/img/image_8.webp`}
               alt="bigadeiro"
             />
           </div>
@@ -109,21 +111,21 @@ const Home = () => {
         <div className="socialapp">
           <div className="apps">
             <img
-              src={process.env.PUBLIC_URL + "./assets/img/image_10.webp"}
+              src={`${process.env.PUBLIC_URL}./assets/img/image_10.webp`}
               alt="iquefome"
             />
             <Button>fazer pedido</Button>
           </div>
           <div className="apps">
             <img
-              src={process.env.PUBLIC_URL + "./assets/img/image_9.webp"}
+              src={`${process.env.PUBLIC_URL}./assets/img/image_9.webp`}
               alt="ifood"
             />
             <Button>fazer pedido</Button>
           </div>
           <div className="apps">
             <img
-              src={process.env.PUBLIC_URL + "./assets/img/image-11.webp"}
+              src={`${process.env.PUBLIC_URL}./assets/img/image-11.webp`}
               alt="99food"
             />
             <Button>fazer pedido</Button>
@@ -132,6 +134,6 @@ const Home = () => {
       </HomeSectionFourStyle>
     </HomeStyle>
   );
-};
+}
 
 export default Home;

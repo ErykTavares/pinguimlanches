@@ -5,7 +5,7 @@ import { ReactComponent as MenuButton } from "../../assets/svg/MenuMobile.svg";
 import MenuMobile from "./MenuMobile";
 import Button from "../Button";
 
-const Header = () => {
+function Header() {
   const [active, setActive] = React.useState(false);
 
   return (
@@ -43,6 +43,6 @@ const Header = () => {
       ) : null}
     </HeaderStyle>
   );
-};
+}
 
 export default Header;

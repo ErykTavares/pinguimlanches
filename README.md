@@ -9,6 +9,7 @@
 **https://pinguimlanches.vercel.app/**
 
 ### **Exemplo do Projeto**
+
 <img src='https://media.giphy.com/media/0SPYOBdvPIVbbbY0mL/giphy.gif' alt='gif de exemplo do projeto'>
 
 ### **Ferramentas Usadas**
@@ -20,6 +21,7 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 
 ### **Contato & RedeSociais**
+
 <div>
 <a href='https://www.linkedin.com/in/eryktavares35/' target='_blank' rel='noopener'><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></a>
 <a href='https://www.instagram.com/lord_eryktavares/?hl=pt-br' target='_blank'><img src='https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white'></a>
