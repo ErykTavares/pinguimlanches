@@ -6,7 +6,7 @@
 
 ### **Site do Projeto**
 
-**<a href='https://pinguimlanches.vercel.app/' target='_blank'>https://pinguimlanches.vercel.app/</a>**
+**https://pinguimlanches.vercel.app/**
 
 ### **Exemplo do Projeto**
 <img src='https://media.giphy.com/media/0SPYOBdvPIVbbbY0mL/giphy.gif' alt='gif de exemplo do projeto'>
